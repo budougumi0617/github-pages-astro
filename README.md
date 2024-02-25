@@ -1,3 +1,23 @@
+# github-page-astro
+
+## 前提
+
+本番リリースはGitHub Actionsを用いてGitHub Pagesにデプロイすることを前提とする。  
+また、メインのPagesのリポジトリとはことなるため、サブディレクトリを含んだルートURLになることを想定する。
+
+## Vercelとの接続
+
+base pathを設定しているときにVercelを用いてpreviewサイトを作成するには`BASE_URL`を空文字列にする必要がある。
+なお、org配下にあるrepoで利用するにはteamを作成する必要がある。つまり、**public repoでも課金の必要がありそう**。
+
+## Netlifyとの接続
+
+同様に`BASE_URL`を空文字列にする必要がある。
+
+---
+
+以下、Astroが自動生成したREADME。
+
 # Astro Starter Kit: Basics
 
 ```sh
